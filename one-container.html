@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Peyton LeDrew's Portfolio</title>
+    <style>
+      body {
+        background-color: rgb(206, 236, 204);
+        font-family: "Georgia", serif;
+        color: black;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .container {
+        position: relative;
+        width: 700px;
+        background-color: rgb(71, 125, 88);
+        border-radius: 41px;
+        padding: 25px;
+      }
+
+      h1,
+      h2 {
+        text-align: center;
+      }
+
+      p {
+        font-size: 20px;
+      }
+
+      nav {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        margin-bottom: 20px;
+      }
+
+      nav > a button {
+        background-color: #006631;
+        width: 183px;
+        height: 87px;
+        border-radius: 25px;
+        border: none;
+        color: #ffffff;
+        font-family: "Georgia", serif;
+        font-size: 20px;
+        font-style: italic;
+        font-weight: 400;
+      }
+
+      a:hover button {
+        background-color: #00994a;
+        font-weight: 600;
+        letter-spacing: 1px;
+      }
+
+      .dog-img {
+        border-radius: 100px;
+        height: 500px;
+        width: 400px;
+        overflow: hidden;
+        margin: 0 auto;
+      }
+
+      .dog {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="container">
+      <section>
+        <h2>My Dog</h2>
+        <div class="dog-img">
+          <img src="luna.jpg" class="dog" alt="Image of Peyton's dog Luna" />
+        </div>
+      </section>
+      <section>
+        <h1>Peyton LeDrew's Portfolio</h1>
+        <p id="about">
+          Howdy! I am a student at ASU, currently pursuing a bachelor's in
+          Astrophysics. I enjoy coding in JavaScript and like to play video
+          games as well.
+        </p>
+      </section>
+
+      <nav>
+        <a href="#about"><button>About</button></a>
+        <a href="#why"><button>Why</button></a>
+        <a href="#contact"><button>Contact</button></a>
+      </nav>
+
+      <section>
+        <h2 id="why">My Goals</h2>
+        <p>
+          I strive to improve my skills in both front-end and back-end
+          development. My ultimate goal is to become a full-stack developer and
+          contribute to meaningful projects that positively impact users' lives.
+        </p>
+      </section>
+
+      <section>
+        <h2 id="contact">Favorite Website</h2>
+        <p>
+          You can reach me here at:
+          <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank"
+            >real@email.com</a
+          >
+          and expect a response within 3-5 business days as I am a very busy
+          person.
+        </p>
+      </section>
+    </div>
+  </body>
+</html>
