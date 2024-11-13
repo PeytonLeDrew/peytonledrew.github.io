@@ -1,0 +1,8 @@
+.gallery {
+    display: block;
+}
+
+.gallery-item {
+    margin: 10px;
+    text-align: center;
+}
